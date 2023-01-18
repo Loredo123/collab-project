@@ -1,0 +1,6 @@
+.bikes__cards {
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}

@@ -6,11 +6,123 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="./pages/index.css">
-	<title>Document</title>
+	<title>collab-project</title>
 </head>
 
-<body>
-
+<body class="root">
+	<div class="page">
+		<header class="header">
+			<nav class="header__nav">
+				<ul class="header__list">
+					<li class="header__list-item"><a href="#" class="header__link">Покрытия и градиенты</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Велосипеды</a></li>
+					<li class="header__list-item"><a href="#" class="header__link">Тренировки</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="content">
+			<section class="lead">
+				<div class="lead__text">
+					<h1 class="lead__title">Шоссе, ТТ и Грэвел</h1>
+					<p class="lead__paragraph">Триатлонные старты, горные серпантины или грейвел заезды по живописным
+						маршрутам
+						–
+						нужно только определиться с выбором велосипеда и отправиться в путь.</p>
+					<button class="lead__btn">Подробнее</button>
+					<div class="lead__desc">
+						<h2 class="lead__subtitle">Cannondale Systemsix</h2>
+						<div class="lead__line"></div>
+					</div>
+				</div>
+				<img src="./images/Placeholder_forest.jpg" alt="Лесная дорога на фоне гор" class="lead__image">
+				<!--
+				<img src="./images/Placeholder_cannondale.jpg" alt="Велосипед" class="lead__image-overlay">
+				-->
+			</section>
+			<section class="merks">
+				<img src="./images/Placeholder_forest-house.jpg" alt="Дом на фоне гор" class="merks__image">
+				<div class="merks__text">
+					<blockquote class="merks__quote">
+						«Катайся много или мало, долго или коротко, как хочешь - но катайся»
+					</blockquote>
+					<p class="merks__author">Эдди Меркс</p>
+					<p class="merks__author-subline">Велогонщик</p>
+				</div>
+			</section>
+			<section class="road">
+				<div class="road__text">
+					<h2 class="road__title">Шоссе</h2>
+					<p class="road__paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
+						будь то горы
+						или равнины. Гонки проходят в
+						командном пелотоне, но тренироваться можно и самостоятельно.</p>
+				</div>
+				<div class="road__slider">
+					<div class="road__gallery">
+						<img src="./images/Placeholder_mountain-road.jpg" alt="Шоссе на фоне гор" class="road__image">
+						<img src="./images/Placeholder_forest-road.jpg" alt="Дорога в лесу" class="road__image">
+					</div>
+					<div class="road__insert">
+						<img src="./images/Rectangle 5.svg" alt="" class="road__insert-image">
+						<img src="./images/Vector_line.svg" alt="" class="road__insert-line">
+					</div>
+					<div class="road__buttons">
+						<button class="road__btn"><img src="./images/arrow_left.svg" alt="Стрелка на лево"
+								class="road__arrow road__arrow-left"></button>
+						<button class="road__btn"><img src="./images/arrow_right.svg" alt="Стрелка на право"
+								class="road__arrow road__arrow-right"></button>
+					</div>
+				</div>
+			</section>
+			<section class="bikes">
+				<h2 class="bikes__title">Велосипеды</h2>
+				<ul class="bikes__lending-links">
+					<li class="bikes__lending-link"><a href="#" class="bikes__link bikes__link_active">Шоссе</a>
+					</li>
+					<li class="bikes__lending-link"><a href="#" class="bikes__link">Грэвел</a></li>
+					<li class="bikes__lending-link"><a href="#" class="bikes__link">ТТ</a></li>
+				</ul>
+				<div class="bikes__cards">
+					<figure class="card">
+						<img src="./images/Cervelo.png" alt="Велосипед Cervelo Caledonia-5" class="card__image">
+						<figcaption class="card__name" lang="En">Cervelo Caledonia-5</figcaption>
+					</figure>
+					<figure class="card">
+						<img src="./images/Cannondale.png" alt="Велосипед Cannondale Systemsix Himod"
+							class="card__image">
+						<figcaption class="card__name" lang="En">Cannondale Systemsix Himod</figcaption>
+					</figure>
+					<figure class="card">
+						<img src="./images/Trek.png" alt="Велосипед Trek Domane SL-7" class="card__image">
+						<figcaption class="card__name" lang="En">Trek Domane SL-7</figcaption>
+					</figure>
+				</div>
+			</section>
+			<section class="training">
+				<div class="training__info">
+					<h2 class="training__title">Тренировки</h2>
+					<p class="training__paragraph">Чтобы найти маршрут для тренировки можно воспользоваться сервисом
+						Komoot,
+						а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить
+						тренировочный
+						план.
+					</p>
+					<ul class="training__sources">
+						<li class="training__source"><a href="#" lang="En" class="training__link">Strava</a> </li>
+						<li class="training__source"><a href="#" lang="En" class="training__link">Komoot</a></li>
+					</ul>
+				</div>
+				<img src="./images/road.png" alt="Дорога с деревьями вокруг" class="training__image">
+			</section>
+		</main>
+		<footer class="footer">
+			<form class="subscribe-form">
+				<label class="subscribe-form__label" for="">Подпишитесь на рассылку &mdash;</label>
+				<input type="text" placeholder="Ваш e-mail" class="subscribe-form__email">
+			</form>
+			<p class="footer__copyright">&commat; Road Club 2021</p>
+		</footer>
+	</div>
 </body>
 
 </html>

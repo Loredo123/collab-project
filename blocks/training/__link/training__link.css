@@ -1,0 +1,15 @@
+.training__link {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0px;
+    transition: opacity linear 0.5s;
+
+}
+
+.training__link:hover {
+    opacity: 0.65;
+}

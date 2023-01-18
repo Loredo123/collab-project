@@ -1,0 +1,10 @@
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #fff;
+
+}

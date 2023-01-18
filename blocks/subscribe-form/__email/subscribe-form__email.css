@@ -1,0 +1,20 @@
+.subscribe-form__email {
+    color: #fff;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid #7D7D7D;
+    border-radius: 4px;
+    max-width: 360px;
+    padding: 11px 20px;
+    background-color: #2F2F2F;
+    opacity: 0.5;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 28px;
+    max-height: 50px;
+    transition: opacity linear 0.5s;
+}
+
+.subscribe-form__email:hover {
+    opacity: 1;
+}

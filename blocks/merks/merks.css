@@ -1,0 +1,6 @@
+.merks {
+	padding-top: 120px;
+	margin: 0 120px 60px;
+	display: flex;
+	justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.card__image {
+    cursor: pointer;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    display: block;
+    box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+}

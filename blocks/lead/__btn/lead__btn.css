@@ -1,0 +1,36 @@
+.lead__btn {
+	position: relative;
+	margin: 0 0 167px;
+	padding: 0;
+	border: none;
+	z-index: 1;
+	width: 180px;
+	height: 50px;
+	background-color: #24B47E;
+	border-radius: 4px;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.28;
+	text-align: center;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.lead__btn::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 0;
+	border-radius: 4px;
+	background-color: #319E75;
+	transition: all 0.3s ease;
+}
+
+.lead__btn:hover::before {
+	width: 100%;
+}

@@ -1,0 +1,9 @@
+.subscribe-form__label {
+    max-width: 229px;
+    counter-reset: #fff;
+    opacity: 1;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+
+}

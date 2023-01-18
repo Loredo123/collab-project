@@ -1,0 +1,7 @@
+.training {
+    padding: 150px 120px 120px;
+    display: flex;
+    flex-direction: space-between;
+    gap: 20px;
+    max-width: 1440px;
+}
