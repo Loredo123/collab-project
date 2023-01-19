@@ -1,5 +1,9 @@
 .lead__image {
-	margin-top: 20px;
-	max-width: 100%;
-	object-fit: cover;
+	background-image: url('../../../images/Placeholder_forest.jpg');
+	background-size: cover;
+	background-position: center;
+	margin: 20px 0 0 200px;
+	min-height: 836px;
+	max-width: 610px;
+	width: 100%;
 }

@@ -19,8 +19,10 @@
 @import url(../blocks/lead/__desc/lead__desc.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__line/lead__line.css);
+@import url(../blocks/lead/__image-container/lead__image-container.css);
+@import url(../blocks/lead/__image-bike/lead__image-bike.css);
+@import url(../blocks/lead/__bike-fix/lead__bike-fix.css);
 @import url(../blocks/lead/__image/lead__image.css);
-@import url(../blocks/lead/__image-overlay/lead__image-overlay.css);
 
 @import url(../blocks/merks/merks.css);
 @import url(../blocks/merks/__image/merks__image.css);
@@ -33,14 +35,13 @@
 @import url(../blocks/road/__text/road__text.css);
 @import url(../blocks/road/__title/road__title.css);
 @import url(../blocks/road/__paragraph/road__paragraph.css);
-@import url(../blocks/road/__slider/road__slider.css);
 @import url(../blocks/road/__gallery/road__gallery.css);
+@import url(../blocks/road/__gallery-item/road__gallery-item.css);
+@import url(../blocks/road/__gallery-item/_active/road__gallery-item_active.css);
 @import url(../blocks/road/__image/road__image.css);
 @import url(../blocks/road/__buttons/road__buttons.css);
 @import url(../blocks/road/__btn/road__btn.css);
-@import url(../blocks/road/__arrow/road__arrow.css);
-@import url(../blocks/road/__arrow-left/road__arrow-left.css);
-@import url(../blocks/road/__arrow-right/road__arrow-right.css);
+
 
 @import url(../blocks/bikes/bikes.css);
 @import url(../blocks/bikes/__title/bikes__title.css);

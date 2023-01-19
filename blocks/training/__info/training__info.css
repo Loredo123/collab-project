@@ -3,4 +3,5 @@
     flex-direction: column;
     justify-content: start;
     gap: 50px;
+    max-width: 460px;
 }

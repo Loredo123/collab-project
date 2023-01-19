@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Ru">
 
 <head>
 	<meta charset="UTF-8">
@@ -34,13 +34,16 @@
 						<div class="lead__line"></div>
 					</div>
 				</div>
-				<img src="./images/Placeholder_forest.jpg" alt="Лесная дорога на фоне гор" class="lead__image">
-				<!--
-				<img src="./images/Placeholder_cannondale.jpg" alt="Велосипед" class="lead__image-overlay">
-				-->
+				<div class="lead__image-container">
+					<div class="lead__image-bike">
+						<img src="./images/Placeholder_cannondale.png" alt="Велосипед Cannondale Systemsix"
+							class="lead__bike-fix">
+					</div>
+					<div class="lead__image"></div>
+				</div>
 			</section>
 			<section class="merks">
-				<img src="./images/Placeholder_forest-house.jpg" alt="Дом на фоне гор" class="merks__image">
+				<!-- <img src="./images/Placeholder_forest-house.jpg" alt="Дом на фоне гор" class="merks__image"> -->
 				<div class="merks__text">
 					<blockquote class="merks__quote">
 						«Катайся много или мало, долго или коротко, как хочешь - но катайся»
@@ -57,22 +60,22 @@
 						или равнины. Гонки проходят в
 						командном пелотоне, но тренироваться можно и самостоятельно.</p>
 				</div>
-				<div class="road__slider">
-					<div class="road__gallery">
+
+				<ul class="road__gallery">
+					<li class="road__gallery-item road__gallery-item_active">
 						<img src="./images/Placeholder_mountain-road.jpg" alt="Шоссе на фоне гор" class="road__image">
-						<img src="./images/Placeholder_forest-road.jpg" alt="Дорога в лесу" class="road__image">
-					</div>
-					<div class="road__insert">
-						<img src="./images/Rectangle 5.svg" alt="" class="road__insert-image">
-						<img src="./images/Vector_line.svg" alt="" class="road__insert-line">
-					</div>
-					<div class="road__buttons">
-						<button class="road__btn"><img src="./images/arrow_left.svg" alt="Стрелка на лево"
-								class="road__arrow road__arrow-left"></button>
-						<button class="road__btn"><img src="./images/arrow_right.svg" alt="Стрелка на право"
-								class="road__arrow road__arrow-right"></button>
-					</div>
+					</li>
+					<li class="road__gallery-item"><img src="./images/Placeholder_forest-road.jpg" alt="Дорога в лесу"
+							class="road__image"></li>
+				</ul>
+
+				<div class="road__buttons">
+					<button class="road__btn"><img src="./images/arrow_left.svg" alt="Стрелка влево"
+							class="road__arrow road__arrow-left"></button>
+					<button class="road__btn"><img src="./images/arrow_right.svg" alt="Стрелка вправо"
+							class="road__arrow road__arrow-right"></button>
 				</div>
+
 			</section>
 			<section class="bikes">
 				<h2 class="bikes__title">Велосипеды</h2>
@@ -112,7 +115,7 @@
 						<li class="training__source"><a href="#" lang="En" class="training__link">Komoot</a></li>
 					</ul>
 				</div>
-				<img src="./images/road.png" alt="Дорога с деревьями вокруг" class="training__image">
+				<!-- <img src="./images/road.png" alt="Дорога с деревьями вокруг" class="training__image">	 -->
 			</section>
 		</main>
 		<footer class="footer">
@@ -120,7 +123,7 @@
 				<label class="subscribe-form__label" for="">Подпишитесь на рассылку &mdash;</label>
 				<input type="text" placeholder="Ваш e-mail" class="subscribe-form__email">
 			</form>
-			<p class="footer__copyright">&commat; Road Club 2021</p>
+			<p class="footer__copyright" lang="En">&commat; Road Club 2021</p>
 		</footer>
 	</div>
 </body>

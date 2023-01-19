@@ -1,7 +1,20 @@
 .training {
     padding: 150px 120px 120px;
     display: flex;
-    flex-direction: space-between;
-    gap: 20px;
+    gap: 160px;
     max-width: 1440px;
+}
+
+.training::after {
+    margin: 0;
+    content: '';
+    display: block;
+    background-image: url('../../images/road.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-width: 580px;
+    min-height: 460px;
+
 }

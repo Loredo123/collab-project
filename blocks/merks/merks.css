@@ -2,5 +2,18 @@
 	padding-top: 120px;
 	margin: 0 120px 60px;
 	display: flex;
+	gap: 80px;
 	justify-content: space-between;
+}
+
+.merks::before {
+	content: '';
+	display: block;
+	background-image: url('../../images/Placeholder_forest-house.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	max-width: 650px;
+
 }

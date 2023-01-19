@@ -1,11 +1,7 @@
 .road__image {
-	max-width: 100%;
+	display: block;
+	width: 100%;
 	object-fit: cover;
-	margin-right: 40px;
-}
-
-.road__image:last-child {
-	margin-right: 0;
 }
 
 .road__image:first-child {

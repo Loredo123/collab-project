@@ -1,0 +1,12 @@
+.lead__bike-fix {
+	position: sticky;
+	max-width: 100%;
+	display: block;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 20px 50px;
+	top: 52.26px;
+	background-color: #F4F4F4;
+	display: block;
+	box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+}
