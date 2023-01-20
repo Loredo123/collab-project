@@ -1,6 +1,7 @@
 .header {
 	position: fixed;
 	background-color: #333333;
+	max-width: 1440px;
 	width: 100%;
 	min-height: 74px;
 	z-index: 10;
