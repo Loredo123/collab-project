@@ -5,3 +5,25 @@
     flex-direction: column;
     gap: 22px;
 }
+
+@media screen and (max-width: 1023px) {
+    .card {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card {
+        margin-top: 35px;
+        gap: 3px;
+        padding: 15px 15px 16px;
+        border-radius: 15px;
+        background-color: #f4f4f4;
+        box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
+    }
+
+
+    .card:not(:first-child) {
+        display: none;
+    }
+}

@@ -8,3 +8,12 @@
     display: block;
     box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
 }
+
+
+@media screen and (max-width: 767px) {
+    .card__image {
+        padding: 0;
+        box-shadow: none;
+    }
+
+}

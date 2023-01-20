@@ -5,3 +5,10 @@
     font-weight: 600;
     line-height: 20px;
 }
+
+
+@media screen and (max-width: 767px) {
+    .footer {
+        font-weight: 500;
+    }
+}

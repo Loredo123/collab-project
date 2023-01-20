@@ -55,7 +55,6 @@
 @import url(../blocks/card/__name/card__name.css);
 
 @import url(../blocks/training/training.css);
-@import url(../blocks/training/__image/training__image.css);
 @import url(../blocks/training/__info/training__info.css);
 @import url(../blocks/training/__title/training__title.css);
 @import url(../blocks/training/__sources/training__sources.css);

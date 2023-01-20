@@ -1,1 +1,30 @@
-.bikes__lending-link {}
+@media screen and (max-width: 767px) {
+
+    .bikes__lending-link {
+        padding: 8px 12px;
+        box-sizing: border-box;
+        border: 1px solid #E3E3E3;
+        min-width: 114px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .bikes__lending-link:not(:first-of-type) {
+        display: none;
+    }
+
+    .bikes__lending-link:first-of-type::after {
+        display: block;
+        transform: rotate(-90deg);
+        content: '';
+        width: 5px;
+        height: 10px;
+        background-image: url('../../../images/arrow_left.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+
+}

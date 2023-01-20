@@ -4,3 +4,57 @@
     grid-template-columns: repeat(2, 1fr);
     row-gap: 120px;
 }
+
+@media screen and (max-width: 1279px) {
+    .bikes {
+        padding: 60px;
+        row-gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .bikes {
+        padding: 50px 20px;
+        row-gap: 80px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bikes {
+        max-width: 284px;
+        margin: auto;
+        padding: 80px 18px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .bikes::before {
+        position: absolute;
+        top: 40px;
+        left: calc((18 / 320) * 100%);
+        content: '';
+        display: block;
+        height: 1px;
+        width: calc((284 / 320) * 100%);
+        background-color: #E3E3E3;
+    }
+
+    .bikes::after {
+        color: #CACACA;
+        background-image: url(../../images/dott.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: left;
+        padding-left: 10px;
+        content: '\00B7 \00B7';
+        letter-spacing: 5px;
+        font-size: 22px;
+        margin: 20px auto 0;
+        height: 4px;
+        line-height: 0.14;
+    }
+
+
+
+}
