@@ -12,7 +12,7 @@
 	color: #FFFFFF;
 	font-size: 14px;
 	font-weight: 600;
-	line-height: 1.28;
+	line-height: 18px;
 	text-align: center;
 	letter-spacing: 1px;
 	cursor: pointer;
@@ -40,7 +40,7 @@
 	.lead__btn {
 		grid-row: 4/5;
 		font-size: 13px;
-		line-height: 1.46;
+		line-height: 19px;
 		padding: 14px 62px 13px;
 	}
 }
