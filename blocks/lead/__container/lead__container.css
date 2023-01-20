@@ -26,6 +26,6 @@
 		grid-template-columns: minmax(254px, 284px);
 		grid-template-rows: 1fr;
 		gap: 40px 0;
-		justify-items: center;
+		justify-content: center;
 	}
 }
