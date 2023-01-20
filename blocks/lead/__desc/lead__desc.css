@@ -1,4 +1,24 @@
 .lead__desc {
 	display: flex;
+	height: 18px;
 	align-items: center;
+	padding-top: 50px;
+}
+
+@media screen and (max-width: 1279px) {
+	.lead__desc {
+		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.lead__desc {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lead__desc {
+		display: none;
+	}
 }

@@ -1,3 +1,16 @@
 .merks__text {
 	max-width: 470px;
 }
+
+@media screen and (max-width: 1023px) {
+	.merks__text {
+		max-width: 100%;
+		text-align: end;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.merks__text {
+		text-align: start;
+	}
+}

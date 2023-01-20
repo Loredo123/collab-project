@@ -1,9 +1,29 @@
 .merks__author {
-	margin: 0 0 6px 0;
+	margin: 262px 0 0 0;
 	padding: 0;
-	font-family: 'Inter', Arial, sans-serif;
 	font-size: 20px;
 	font-weight: 500;
-	line-height: 1.6;
+	line-height: 32px;
 	color: #FFFFFF;
+}
+
+@media screen and (max-width: 1279px) {
+	.merks__author {
+		margin-top: 200px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.merks__author {
+		margin-top: 40px;
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.merks__author {
+		font-size: 14px;
+		line-height: 22px;
+	}
 }

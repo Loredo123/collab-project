@@ -8,3 +8,18 @@
 	letter-spacing: -0.5px;
 	color: #FFFFFF;
 }
+
+@media screen and (max-width: 1023px) {
+	.road__title {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.road__title {
+		grid-area: title;
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+}

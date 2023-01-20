@@ -1,6 +1,27 @@
 .lead__image-bike {
-	margin-top: 347px;
+	padding-top: 347px;
 	position: absolute;
 	min-height: 430px;
 	max-width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+	.lead__image-bike {
+		padding-top: 290px;
+		min-height: 344px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.lead__image-bike {
+		padding-top: 260px;
+		min-height: 310px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lead__image-bike {
+		padding-top: 151px;
+		min-height: 188px;
+	}
 }

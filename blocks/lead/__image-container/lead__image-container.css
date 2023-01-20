@@ -1,6 +1,27 @@
 .lead__image-container {
 	position: relative;
 	max-width: 810px;
-	min-height: 856px;
 	width: 100%;
+	grid-column: 2/3;
+	grid-row: 1/5;
+}
+
+@media screen and (max-width: 1279px) {
+	.lead__image-container {
+		max-width: 675px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.lead__image-container {
+		max-width: 540px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lead__image-container {
+		max-width: 284px;
+		grid-column: 1/2;
+		grid-row: 2/3;
+	}
 }

@@ -1,9 +1,34 @@
 .lead__image {
 	background-image: url('../../../images/Placeholder_forest.jpg');
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	margin: 20px 0 0 200px;
-	min-height: 836px;
 	max-width: 610px;
 	width: 100%;
+	min-height: 810px;
+}
+
+@media screen and (max-width: 1279px) {
+	.lead__image {
+		max-width: 518px;
+		min-height: 688px;
+		margin: 20px 0 0 155px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.lead__image {
+		max-width: 466px;
+		min-height: 620px;
+		margin: 20px 0 0 80px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lead__image {
+		max-width: 254px;
+		min-height: 348px;
+		margin-left: 30px;
+	}
 }

@@ -1,5 +1,48 @@
 .road {
-	padding-top: 60px;
-	margin: 0 0 60px 120px;
+	display: grid;
+	padding: 60px 0 60px 120px;
+	margin: 0;
 	overflow: hidden;
+}
+
+@media screen and (max-width: 1279px) {
+	.road {
+		padding: 50px 0 50px 60px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.road {
+		gap: 60px;
+		margin: 0;
+		padding: 40px 0 40px 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.road {
+		max-width: 320px;
+		box-sizing: border-box;
+		margin: auto;
+		padding: 80px 18px 40px;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 40px;
+		grid-template-areas:
+			'title buttons'
+			'image image'
+			'text text';
+	}
+
+
+	.road::before {
+		position: absolute;
+		top: 40px;
+		left: calc((18 / 320) * 100%);
+		content: '';
+		display: block;
+		height: 1px;
+		width: calc((284 / 320) * 100%);
+		background-color: #E3E3E3;
+	}
+
 }

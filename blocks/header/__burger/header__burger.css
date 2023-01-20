@@ -1,0 +1,38 @@
+.header__burger {
+	display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.header__burger {
+		display: block;
+		position: fixed;
+		width: 22px;
+		height: 18px;
+		top: 25px;
+		right: 18px;
+		cursor: pointer;
+	}
+
+	.header__burger span::before,
+	.header__burger span::after,
+	.header__burger span {
+		position: absolute;
+		width: 100%;
+		height: 3px;
+		background-color: #FFFFFF;
+	}
+
+	.header__burger span {
+		top: 50%;
+	}
+
+	.header__burger span::before {
+		content: '';
+		top: -8px;
+	}
+
+	.header__burger span::after {
+		content: '';
+		top: 8px;
+	}
+}

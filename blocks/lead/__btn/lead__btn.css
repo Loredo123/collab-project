@@ -1,11 +1,12 @@
 .lead__btn {
+	display: block;
 	position: relative;
-	margin: 0 0 167px;
-	padding: 0;
+	text-decoration: none;
+	padding: 16px 10px;
 	border: none;
 	z-index: 1;
-	width: 180px;
-	height: 50px;
+	width: 160px;
+	height: 18px;
 	background-color: #24B47E;
 	border-radius: 4px;
 	color: #FFFFFF;
@@ -33,4 +34,13 @@
 
 .lead__btn:hover::before {
 	width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	.lead__btn {
+		grid-row: 4/5;
+		font-size: 13px;
+		line-height: 1.46;
+		padding: 14px 62px 13px;
+	}
 }

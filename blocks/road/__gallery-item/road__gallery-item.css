@@ -1,5 +1,6 @@
-.road__gallery-item {
-    /* padding: 0;
-    box-sizing: border-box;
-    position: relative; */
+@media screen and (max-width: 767px) {
+    .road__gallery-item:not(:first-of-type) {
+        display: none;
+    }
+
 }

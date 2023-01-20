@@ -1,6 +1,6 @@
 .merks {
-	padding-top: 120px;
-	margin: 0 120px 60px;
+	padding: 120px 120px 60px;
+	margin: 0;
 	display: flex;
 	gap: 80px;
 	justify-content: space-between;
@@ -14,6 +14,59 @@
 	background-position: center;
 	background-size: cover;
 	width: 100%;
-	max-width: 650px;
+
+}
+
+@media screen and (max-width: 1279px) {
+	.merks {
+		padding: 100px 60px 60px;
+		gap: 60px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.merks {
+		padding: 60px 20px 60px;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.merks::before {
+		min-height: 400px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.merks {
+		position: relative;
+		max-width: 320px;
+		box-sizing: border-box;
+		margin: auto;
+		padding: 60px 18px 40px;
+	}
+
+	.merks::before {
+		content: '';
+		display: block;
+		background-image: url('../../images/Placeholder_forest-house.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		width: 100%;
+		max-width: 284px;
+		min-height: 204px;
+
+	}
+
+	.merks::after {
+		position: absolute;
+		top: 40px;
+		left: calc((18 / 320) * 100%);
+		content: '';
+		display: block;
+		height: 1px;
+		width: calc((284 / 320) * 100%);
+		background-color: #E3E3E3;
+	}
 
 }
