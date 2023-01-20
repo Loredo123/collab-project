@@ -1,7 +1,4 @@
 .bikes__lending-links {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
     justify-self: end;
     align-items: end;
     display: flex;
