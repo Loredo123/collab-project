@@ -3,7 +3,6 @@
     display: flex;
     gap: 160px;
     max-width: 1440px;
-    position: relative;
 }
 
 .training::after {
@@ -64,8 +63,10 @@
 @media screen and (max-width: 767px) {
     .training {
         padding: 80px 18px 60px;
-
-
+        position: relative;
+        max-width: 320px;
+        box-sizing: border-box;
+        margin: auto;
     }
 
     .training::after {
